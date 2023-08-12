@@ -5,7 +5,7 @@
 ![My Image](/src/main/resources/images/banner.png)
 
 ### Context:
-I have an Excel file with almost 100 people with their information (firstname, last name, gender, email, occupation and marital status) which I need to register on a PostgreSQL database using Spring Boot.
+I have an Excel file with almost 100 people with their information (firstname, last name, gender, email, occupation and marital status) which I need to save it on a PostgreSQL database using Spring Boot.
 
 ** 🔵 Project Architecture 🔵 **
 
