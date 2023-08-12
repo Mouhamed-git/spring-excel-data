@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    generate-ddl: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springexceldb
+    username: springexcel
+    password: miisteuh_d1@ck
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      auto-commit: false
