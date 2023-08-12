@@ -380,5 +380,6 @@ public class PersonQueryControllerITests extends SpringExcelDataSaveApplicationT
 ##### Thank you ! 🤗
 
 *Follow me:*
-* LinkedIn: [https://www.linkedin.com/in/mouhamad-diack-b0b1541a3/](#section-1)
-* Portfolio: [https://md-portfolio.carrd.co/](#section-2)
+* LinkedIn: https://www.linkedin.com/in/mouhamad-diack-b0b1541a3/
+* Discord: https://discord.com/users/845331863018274836
+* Portfolio: https://md-portfolio.carrd.co/
