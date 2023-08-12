@@ -1,4 +1,4 @@
-# SPRING - POSTGRESQL - EXCEL 
+# SPRING BOOT - POSTGRESQL - EXCEL 
 
 ## This repository shows how to save data from Excel file to PostgreSQL database using Spring Boot.
 

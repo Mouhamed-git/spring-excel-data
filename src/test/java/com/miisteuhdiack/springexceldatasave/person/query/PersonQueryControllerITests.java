@@ -17,7 +17,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
-public class PersonQueryControllerITests extends SpringExcelDataSaveApplicationTests {
+class PersonQueryControllerITests extends SpringExcelDataSaveApplicationTests {
     private final PersonRepository repository;
 
     @Autowired
@@ -25,17 +25,15 @@ public class PersonQueryControllerITests extends SpringExcelDataSaveApplicationT
         super(mockMvc);
         this.repository = repository;
     }
-
     @Test
-    public void itShouldReturnAllPersons() throws Exception{
+    void itShouldReturnAllPersons() throws Exception{
         mockMvc.perform(get(PersonQueryController.PERSON_QUERY_ROUTE))
                 .andExpect(status().isOk())
                 .andDo(MockMvcResultHandlers.print());
 
     }
-
     @Test
-    public void itShouldReturnPersonById() throws Exception{
+    void itShouldReturnPersonById() throws Exception{
 
         UUID uuid = repository.findAll().stream().findFirst().map(Person::getId).orElseThrow(NotFoundException::new);
 
