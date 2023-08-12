@@ -5,7 +5,7 @@
 ![My Image](/src/main/resources/images/banner.png)
 
 ### Context:
-have an Excel file with almost 100 people with their information (firstname, last name, gender, email, occupation and marital status) which I need to register on a PostgreSQL database using Spring Boot.
+I have an Excel file with almost 100 people with their information (firstname, last name, gender, email, occupation and marital status) which I need to register on a PostgreSQL database using Spring Boot.
 
 ** 🔵 Project Architecture 🔵 **
 
@@ -377,3 +377,8 @@ public class PersonQueryControllerITests extends SpringExcelDataSaveApplicationT
 ![My Image](/src/main/resources/images/findOne.png)
 
 
+##### Thank you ! 🤗
+
+*Follow me:*
+* LinkedIn: [https://www.linkedin.com/in/mouhamad-diack-b0b1541a3/](#section-1)
+* Portfolio: [https://md-portfolio.carrd.co/](#section-2)
